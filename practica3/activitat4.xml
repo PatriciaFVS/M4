@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- Aquest xml conté les caractrítiques del meu llibre preferit.-->
+<bookstore>
+    <book>
+        <name> Homosapiens </name>
+        <publisher> Yuval Noah </publisher>
+        <cover> tapa dura </cover>
+        <price> 30.50 euros </price> <!--El preu una mica exageraaaattt-->
+    </book>
+</bookstore>
