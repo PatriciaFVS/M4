@@ -1,0 +1,10 @@
+{ "bookstore":{
+        "book":{
+            "name": "Homosapiens",
+            "publisher": "Yuval noah",
+            "cover": "tapa dura",
+            "price": "30.50 euros"
+        }
+}
+
+}
