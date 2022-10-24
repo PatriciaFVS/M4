@@ -1,0 +1,37 @@
+{"students": {
+    "student":{
+        "name" : "Pablo",
+        "surmane": "Valencia",
+        "email": "pablov12@gmail.com",
+        "dni" : "43144556A",
+        "nacionalitat": "Espanyol"        
+    },
+    "student":{
+        "name" : "Isabel",
+        "surmane": "Pantoja",
+        "email": "Lapanto@gmail.com",
+        "dni" : "41093456B",
+        "nacionalitat": "Irani"        
+    },
+    "student":{
+        "name" : "Patricia",
+        "surmane": "Valencia",
+        "email": "pava@gmail.com",
+        "dni" : "98765555A",
+        "nacionalitat": "Peruana"        
+    },
+    "student":{
+        "name" : "Paula",
+        "surmane": "Rubia",
+        "email": "Paru@gmail.com",
+        "dni" : "12345678P",
+        "nacionalitat": "chinesa"        
+    },
+    "student":{
+        "name" : "Harpreet",
+        "surmane": "Kaur",
+        "email": "Haku@gmail.com",
+        "dni" : "87654321L",
+        "nacionalitat": "sueca"        
+    }
+}}
