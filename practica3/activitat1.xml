@@ -1,0 +1,40 @@
+<!--Agenda de 5 estudiants aleatoris per poder fer aquesta practica de xml-->
+<?xml version="1.0" encoding="UTF-8"?>
+<students>
+    <student>
+        <name> Pablo </name>
+        <surname> Valencia </surname>
+        <email> pablov12@gmail.com </email>
+        <dni nacionalitat= "Espanyol"> 43144556A </dni>
+        <!-- S'especifica la nacionalitat de cada estudiant-->
+    </student>
+
+    <student>
+        <name> Isabel </name>
+        <surname> Pantoja </surname>
+        <email> Lapanto@gmail.com </email>
+        <dni nacionalitat= "irani"> 41093456B </dni>
+    </student>
+
+    <student>
+    <!--Aquesta estudiant es la número 3-->
+        <name> Patricia </name>
+        <surname> Valencia </surname>
+        <email> pava@gmail.com </email>
+        <dni nacionalitat= "peruana"> 98765555A </dni>
+    </student>
+
+    <student>
+        <name> Paula </name>
+        <surname> Rubio </surname>
+        <email> Paru@gmail.com </email>
+        <dni nacionalitat= "chinesa"> 12345678P </dni>
+    </student>
+
+    <student>
+        <name> Harpreet </name>
+        <surname> Kaur </surname>
+        <email> Haku@gmail.com </email>
+        <dni nacionalitat= "sueca"> 87654321L </dni>
+    </student>
+</students>
