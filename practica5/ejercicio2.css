@@ -1,1 +1,20 @@
-hola
+/*
+Cambios de toda la tabla en general
+He añadido un poquito de padding para que el texto se quede un poquito centrado
+*/
+table,th,td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 5px;
+}
+/* Cambio de estilo del título de la tabla*/
+caption{
+    font-weight: bold;
+    color: blue;
+    margin-bottom: 5px;
+}
+/* He creado class negrita, para cambiar las caractrísticas de la primera fila de la tabla*/
+.negrita{
+    font-weight: bold;
+    background-color: lightgray;
+}
