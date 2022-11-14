@@ -1,1 +1,28 @@
-hola
+/* He escollit un color rosat per a la taula els borders serán iguals excepte al títol de la taula*/
+table,td,th,caption{
+    border: 2px solid palevioletred;
+    border-collapse: collapse;
+    padding:5px
+
+}
+/* A continuació estan definits tots els altres paràmetres de les altres parts de la taula*/
+caption{
+    color:white;
+    border: 1px solid rgba(216, 112, 147, 0.849);
+    font-weight: 600;
+    font-family: Arial;
+    background-color:rgba(216, 112, 147, 0.849);
+    
+
+}
+th{
+    background-color: rgba(216, 112, 147, 0.849);
+    font-family: Arial;
+    font-weight: 550;
+    font-size:14px;
+}
+td{
+    font-family: Arial;
+    font-size: small;
+    
+}
