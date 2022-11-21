@@ -1,1 +1,53 @@
-asdg
+<!DOCTYPE html>
+<html>
+
+    <!--Formulario para recoger datos de los futuros estudiantes-->
+    <head>
+        <title>Formulari</title>
+        <meta charset="utf=8">
+    </head>
+    <body>
+        <form>
+            <label>Nom</label>
+            <!-- palceholder para que por defecto salga el texto antes de que el usuario introduzca algo-->
+            <input type="text" placeholder="el teu nom"><br> 
+            <br>
+            <label>Cognom</label>
+            <input type="text" placeholder="el teu cognom"><br>
+            <br>
+            <label>Edat</label>
+            <input type="number" placeholder="20"><br>
+            
+            <p>Cicle formatiu que es vol cursar l'any vinent:</p>
+            <!-- Poner primero el label y luego input para a la "redondita" esté antes del texto-->
+            <label for="DAM">DAM</label>
+            <input type="radio" checked><br>
+            <label for="Asix">ASIX</label>
+            <input type="radio" id="ASIX" name="curs" value="ASIX"><br>
+            <label for="Altres"> Altres</label>
+            <input type="radio" value="Altres"><br>
+
+            <p>Marca les teves aficions:</p>
+            <!-- Para que por defecto nos salga un valor selecionado hay que usar el atributo checked-->
+            <label>Estudiar <input type="checkbox" checked></label><br>
+            <label>ASIX <input type="checkbox"></label><br>
+            <label>Llibres <input type="checkbox"></label><br>
+            <label>Jugar a Magic <input type="checkbox"></label><br>
+            <label>Fer burilles <input type="checkbox"></label><br>
+            
+            <div>
+                <label> Altres</label>
+                <textarea name="Missatge" rows="10" cols="50">Especifica quines</textarea>
+            </div>
+
+            <label>L'estàndard d'HTML que més m'agrada:</label>
+            <select>
+                <!--El vaor que tiene que salir por defecto hay que poner antes que los otros-->
+                <option>HTML 5 </option>
+                <option>XHTML 1.0 </option>
+                <option> HTML 4.01 </option>
+            </select>
+
+        </form>
+    </body>
+</html>
