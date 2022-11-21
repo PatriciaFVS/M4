@@ -1,1 +1,52 @@
-aasdfg
+<!DOCTYPE html>
+<html>
+ <!-- Formulari de seleccions de cicles formatius, aficions i preferència d'HTML-->
+
+    <head>
+        <!--utf-8, para que admita acentos y otros caracteres-->
+        <meta charset="utf-8">
+        <title>Form</title>
+    </head>
+    <body>
+        <h1>Formulari</h1>
+
+        <form>
+            <label>Nom</label><br>
+            <!--placeholder: aparición de "el teu nom" dentro del recuadro -->
+            <input type="text" placeholder="el teu nom"> <br><br>
+            <label>Cognom</label><br>
+            <input type="text" placeholder="el teu cognom" ><br><br>
+            <label>Edat</label><br>
+            <input type="number" placeholder="20">
+
+            <p>Cicle formatiu que es vol cursar l'any vinent:</p>
+            <label>DAM</label>
+            <!--Checked para que sea la opción predeterminada-->
+            <input type="radio" checked><br>
+            <label>ASIX</label>
+            <input type="radio"><br>
+            <label>Altres...</label>
+            <input type="radio"><br>
+
+            <p>Marca les teves aficions:</p>
+            <label>Estudiar<input type="checkbox" checked></label><br>
+            <label>ASIX<input type="checkbox"></label><br>
+            <label>Llibres<input type="checkbox"></label><br>
+            <label>Jugar a Magic<input type="checkbox"></label><br>
+            <label>Fer burilles <input type="checkbox"></label><br>
+
+            <div>
+                <label>Altres: </label>    
+            </div>
+            <textarea name="message" rows="10" cols="50">Especifica quines</textarea><br><br>
+
+            <label>L'estàndard d'HTML que més m'agrada:</label>
+            <select>
+                <option checked>HTML5</option>
+                <option>XHTML 1.0</option>
+                <option>HTML 4.01</option>
+            </select><br>
+
+        </form>
+    </body>
+</html>
