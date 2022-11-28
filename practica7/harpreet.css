@@ -1,1 +1,40 @@
-sadfg
+div{    
+    /*La posición de este cuadro se relativa al cuadro grande(azul)
+    */
+    background-color: yellow;
+    width: 40px;
+    height: 40px;
+    margin-left: 20px;
+    margin-top: 20px;
+    position: relative;
+    border: 1px solid mediumpurple;
+    
+}
+.azul{
+    /* Poscición absoluta, se respeto a toda la página en general*/
+    width: 160px;
+    height: 120px;
+    margin-top: 40px;
+    margin-left: 20px;
+    background-color: #78ACCC;
+    position:absolute;
+    
+}
+
+.rojo{
+    width: 160px;
+    height: 120px;
+    background-color: red;
+    margin-top: 140px;
+    margin-left: 100px;
+    position: absolute;    
+
+}
+.verde{
+    width: 40px;
+    height: 40px;
+    margin-left: 100px;
+    margin-top: 60px ;
+    background-color: mediumseagreen;
+    position: relative;
+}
