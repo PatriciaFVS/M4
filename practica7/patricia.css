@@ -1,1 +1,45 @@
-sfdghj
+/* Definición de margenes y altura anchura de los cuadrados, y colores.*/
+
+#azul{ 
+    width: 40px;
+    height: 40px;
+    background-color: #78ACCC;
+    margin-top: 20px;
+    margin-left: 20px;
+    /* Posición relativa al cuadrado amarillo*/
+    position:relative;
+    border: 1px solid gray;
+}
+
+#amarillo{ 
+    width: 160px;
+    height: 120px;
+    background-color: yellow;
+    margin-top:40px;
+    margin-left: 20px;
+    /* Posición absoluta a la pagina*/
+    position:absolute;
+    border: 1px solid gray;
+}
+
+#verde{
+    width: 160px;
+    height: 120px;
+    background-color: green;
+    margin-top: 140px;
+    margin-left: 100px;
+    /* Posición absoluta a la pagina*/
+    position: absolute;
+    border: 1px solid gray;
+}
+
+#rojo{
+    width: 40px;
+    height: 40px;
+    background-color: red;
+    margin-top: 60px;
+    margin-left: 100px;
+     /* Posición relativa al cuadrado verde*/
+    position: relative;
+    border: 1px solid gray;
+}
