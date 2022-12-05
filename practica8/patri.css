@@ -1,1 +1,27 @@
-sadfghj
+#item{
+    margin-left: 5px;
+    display:flex;
+    padding: 5px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+#item1{
+padding: 5px;
+margin-left: 16px;
+}
+
+#container{
+    display: flex;
+    flex-direction: row;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+}
+a{
+    color:black;
+
+}
+a:hover{
+    text-decoration: underline;
+
+}
