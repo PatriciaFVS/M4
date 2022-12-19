@@ -1,45 +1,68 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <!--colocar el icoono delnate de title-->
         <title>Google</title>
         <meta charset="utf-8">
         <link rel="stylesheet" href="har.css">
+        <link rel="Shourtcut icon" href="iconGoogle.png">
     </head>
     <body>
         <header>
-            <div class="arribaIzq">
-                <p> Sobre Google </p>
-                <p> Tienda </p>
+            <!-- El header he separado en dos div para que a la hora de hacerlo más pequeño se me bajé la palabra Google-->
+            <div class="rightHeader">
+                <div class="subheader"> Sobre Google </div>
+                <div> Tienda </div>
             </div>
-
-            <div class="arribaDerecha">
-                <p> Gmail </p>
-                <p> Imágenes </p>
-                <div class="imagen"><img src="Icon.svg"></div>
+            <div class="leftHeader">
+                <div>Gmail</div>
+                <div>Imágenes</div>
+                <img src="Icon.svg">
+                <!-- Este botón no es funcional-->
                 <button type="button"> Iniciar Sesión </button>
             </div>
         </header>
-        <div class="google">
-            Google
-        </div>
-        <div class="imagenDni">
-            <img src="panda.jpg" width="200" height="220">
-            <img src="panda.jpg" width="200" height="220">
-        </div>
-        <div class="texto">
-            <div> 
-                <p>Harpreet Kaur</p>
-                <p> Dormir, pintar, eschuchar música</p>
-                <p> primero quiero acabar el ciclo</p>
+        <main>
+            <div class="letraGoogle">
+                Google
             </div>
-            <div>
-                <p> Patricia Valencia </p>
-                <p> bailar, leer, eschuchar música, salir de fiesta</p>
-                <p> trabajar i irse de casa</p>
+            <div class="general">
+                <div class="Patricia">
+                    <img class ="fotoPatri" src="patri.jpeg">
+                    <div> - Patricia Valencia Silva</div>
+                    <div> - Bailar, leer, hacer ejercicio.</div>
+                    <div> - Al acabar el ciclo le gustaría trabajar en una empresa, y si es possible trabajar en Irlanda. </div> 
+                </div>
+                <div class="Harpreet">
+                    <img class="fotoHar" src="harpreet.jpeg">
+                   <div> - Harpreet Kaur </div>
+                    <div> - Pintar, tocar la guitarra, dibujar.</div>
+                    <div> - Al acabar el ciclo tengo previsto trabajar y crecer profesionalmente.</div>
+                </div>
+            </div>            
+        </main>        
+        <footer>
+            <!--En principio el responsive no afecta a esta parte del footer, entonces por eso esta en un div diferente que los otros-->
+            <div class="firstFooter">
+                <p>Espanya</p>
             </div>
-        </div>
-        <img src="hojita.png" width="15px" height="15px">
-    </body>    
+            <!--  El último footer lo he dividido en 3 divs diferentes para que al hacer wrap cambien las posiciones juntos-->
+            <div class="secondFooter">
+                <div class="bottomLeft">
+                    <div>Publicidad</div>
+                    <div> Empresa </div>
+                    <div> Cómo funciona la Búsqueda</div>
+                </div>
+                <div class="bottomCenter">
+                        <img src="hojita.png">
+                        <div> Emisión neutra de carbono desde el 2007 </div>
+                </div>
+                <div class="bottomRight">
+                    <div> Privacidad </div>
+                    <div> Términos </div>
+                    <div> Configuración </div>
+                </div>
+            </div>            
+        </footer>
+    </body>
 </html>
 
