@@ -1,17 +1,16 @@
+
+
 body{
-    margin:0px 0px;
+    /* Le he tenido que poner margen 0 porque sino página se descuadraba */
+    margin:0px;
 }
+/*Comienzo de header*/
 header{
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
     font-family: arial,sans-serif;
     font-size: 14px;
-    height:20%;
 }
-#cosa{
-    height:80%;
-}
+
 #containeri{
     display: flex;
     flex-direction:row;
@@ -23,8 +22,7 @@ header{
     gap: 16px; 
 }
 .letra:hover{
-    border-bottom: 1px solid black;
-
+    border-bottom: 2px solid black;
 }
 
 #containerd{
@@ -34,32 +32,34 @@ header{
     justify-content: flex-end;
     padding: 8px;
     width: 50%;
+    gap: 25px;
 }
 
-#iz{
+#containerd1{
     display: flex;
     flex-direction: row;
     padding: 5px;
-    gap: 16px;
+    gap:16px;
+    
 }
-#imagen{
+#containerd2{
     padding: 5px;
+    
    
  
 }
-#boton{
-    padding:5px;
+#containerd3{
+    padding:9px 23px;
+    background-color:#1a73e8;
+    border-radius: 4px;
+    border: 0px;
+    color: white;
 }
+/*Final de header*/
 
+/*Logo google*/
 
 #container2{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    
-}
-
-#logo{
     padding-top: 92px;
     display:flex;
     align-items: flex-end;
@@ -67,11 +67,10 @@ header{
     justify-content: center;
     
 }
-
+/* Comienzo contenedor 3 */
 #container3{
     display: flex;
     align-items: center;
-    justify-items: center;
     flex-direction: column;
     padding: 20px;
     gap: 32px;
@@ -91,21 +90,20 @@ header{
    
 }
 .iconos{
-    align-items: flex-end;
-    
+    width:24px;
+    height:24px;
 }
 
-.escribir{
+.inputbarra{
    border:0px;
    width: 443px;
    height: 34px;
+   outline: none;
 }
 #botones{
     display: flex;
     flex-direction: row;
     gap:16px;
-    
-
 }
 .bot{
     padding: 8px 16px;
@@ -113,34 +111,79 @@ header{
     border-radius: 4px;
     border: 0px;
 }
+/* bot a para poder clicar y redireccionar a el html de mi compañera*/
+.bot a{
+    color: black;
+    text-decoration: none;
+}
+/*como queda el boton cuando pasas por encima*/
+.bot a:hover{
+    text-decoration: underline;
+}
 
 #idiomas{
     display: flex;
     flex-direction: row;
     gap:8px;
 }
-#nombreidiomas{
-    gap:8px;
+
+/* de nuevo para indicar el estilo cuando lo usamos de boton*/
+#idiomas a{
+    color: #1a73e8;
+    text-decoration: none;
 }
 
+#idiomas a:hover{
+    text-decoration: underline;
+}
+/*Final de contenedor 3*/
+
+/*Comienzo footer*/
 footer{
-    border: 3px solid red;
-    height:80% ;
-
-    
+/*Caracteristicas generales de todo el footer*/
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    background-color: #F2F2F2;
+    color:#70757A;
 }
+/*1er footer*/
 #superior{
-    background-color: #F8F9FA;
     display: flex;
     flex-direction: column;
-    align-items: flex-end;
+    align-items: flex-start;
+    padding:15px 30px;
+    border-bottom: 1px solid #dadce0;
 }
+/*2ndo footer*/
 #inferior{
-    background-color: #F8F9FA;
+    padding:15px 30px;
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
-#siz, #smed, #sder{
-    display:flex;
+
+/*footer dividido en 3: izquierdo, medio, derecho*/
+#siz{
+   display: flex;
+   flex-direction: row;
+   gap:16px;
+
+}
+#smed{
+    display: flex;
     flex-direction: row;
+    justify-content: center;
+    gap:16px;
+    
+    
+}
+#sder{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap:16px;
 }
