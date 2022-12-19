@@ -4,65 +4,71 @@
         <title>Google</title>
         <meta charset="utf-8">
         <link rel="stylesheet" href="patri.css">
-        <link rel="icon"  href="Icono.svg">
+        <link rel="icon" href="googleheadicon.png">
     </head>
     
     <body>
+        <!--Mi HEADER está dividido en dos containers principales el izquierdo y el derecho -->
         <header>
             <div id="containeri">
                 <div class="letra">Sobre Google</div>
                 <div class="letra">Tienda</div>   
             </div>
             <div id="containerd"> 
-                <div id="iz">
-                    <div>Gmail</div>
-                    <div >Imágenes </div> 
+                <!-- dentro del izquierdo-->
+                <div id="containerd1">
+                    <div class="letra">Gmail </div>
+                    <div class="letra">Imágenes </div> 
                 </div>
-                <div id="imagen"><img src="Icono.svg" ></div>
-                <div id="boton">Iniciar Sesión </div>
+                <div id="containerd2"><img src="Icono.svg" ></div>
+                <button id="containerd3">Iniciar Sesión </button>
             </div>
         </header>
-        <div id="cosa">
+        <!--Dos containers: logo de google i la barra de búsqueda-->
         <div id="container2">
-            <div id="logo"><img src="Logo Google.png" width="272px" height="97px"></div>
+            <div ><img src="Logo Google.png" width="272px" height="97px"></div>
         </div>
         <div id="container3">
+            <!--barra de búsqueda-->
             <div id="barra">
-                <img  src="Icono.svg" >
-                <input  class="escribir">
-                <img  class="iconos"src="Icono.svg" >
-                <img class="iconos"src="Icono.svg" >
+                <img  src="lupa.png" width="20px" height="20px">
+                <input  class="inputbarra">
+                <img  class="iconos"src="micro.png" >
+                <img class="iconos"src="camara.png"  >
             </div>
+            <!--botones-->
             <div id="botones" >
-                <input type="submit" class="bot" value="Buscar con Google">
-                <input type="submit" class="bot" value="Voy a tener suerte">
+                <!-- EL PRIMERO BOTÓN REDIRECCIONA AL TRABAJO DE HARPREET-->
+                <button type="button" class="bot"><a href="har.html">Buscar con Google</a></button>
+                <button type="button" class="bot" >Voy a tener suerte</button>
             </div>
+            <!--parte de idiomas que picando lleva a los otros html del idioma correspondiente-->
             <div id="idiomas">
                 <div>Ofrecido por Google en:</div>
                 <div id="nombreidiomas">
-                    <a href="">català</a>
-                    <a href="">galego</a>
-                    <a href="">euskara</a>
+                    <a href="gogglecatala.html">català</a>
+                    <a href="googlegalego.html">galego</a>
+                    <a href="goggleeuskera.html">euskara</a>
                 </div>
             </div>
         </div>
-        </div>
+        <!--FOOTER dividido en 2 uno superior y otro inferior, el inferior constarà de 3 divs más -->
         <footer>
             <div id="superior">España</div>
             <div id="inferior">
                 <div id="siz">
-                    <div>Publicidad</div>
-                    <div>Empresa</div>
-                    <div>Cómo funciona la Búsqueda</div>
+                    <div class="letra">Publicidad</div>
+                    <div class="letra">Empresa</div>
+                    <div class="letra">Cómo funciona la Búsqueda</div>
                 </div>
                 <div id="smid">
                     
-                    <div>Emisión neutra de carbono desde el 2007</div>
+                    <div >Emisión neutra de carbono desde el 2007</div>
                 </div>
                 <div id="sder">
-                    <div>Privacidad</div>
-                    <div>Términos</div>
-                    <div>Configuración</div>
+                    <div class="letra">Privacidad</div>
+                    <div class="letra">Términos</div>
+                    <div class="letra">Configuración</div>
                 </div>
             </div>
         </footer>
