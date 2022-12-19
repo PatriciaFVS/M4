@@ -1,81 +1,168 @@
+/*El css esta destribuido en el mismo orden que el html ( de head a footer)*/
+/*Va de más general a más especifico */
+
 body{
     background-color: #202124;
-}
-header{
-    display: flex;
-    flex-direction: row;
+    margin: 0%;
+    color: white;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: small;
 }
-.imagen{
-    color: white;
-}
-.arribaIzq{
-    color: #bdc1c6;
+/* La propiedad flex direction he puesto en el head general, ya que afecta a todos los elementos que incluye*/
+header{
+    padding: 5px;
     display: flex;
     flex-direction: row;
-    align-items: flex-start;
-    padding-left: 16px;
-    gap: 16px;  
-    width: 50%;
-  
 }
-.arribaIzq p:hover{
-    text-decoration: underline; color: black;
-}
-.arribaDerecha{
-    color: white;
+.rightHeader{
     display: flex;
     flex-direction: row;
+    width: 20%;  
+    font-size: 14px;
+    justify-content: space-evenly;
     align-items: center;
+    color: #bdc1c6;
+}
+.subheader{
+    margin-left: 3px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.leftHeader{
+    display: flex;
+    flex-direction: row;
+    width: 80%;
     justify-content: flex-end;
-    width: 50%;
+    font-size: 13px;
     gap: 16px;
+    align-items: center;
+    padding: 5px;
 }
-button{
-    background-color: #8ab4f8;
+
+/* Configuración más espeficicas de los elementos del header*/
+.rightHeader div:hover{
+    text-decoration: underline solid;
+}
+.leftHeader div:hover{
+    text-decoration: underline solid;
+}
+.leftHeader img{
+    width: 15px;
+    height: 15px;
+}
+.leftHeader button{
+    background: #8ab4f8;
+    border: 1px solid transparent;
     color: #202124;
-    padding: 10px;
+    padding: 9px 23px;
     border-radius: 5px;
-    border: none;
 }
-.google{
-    font-family: sans-serif;
-    font-size: 90px;
-    color: white;
-
+/*Main*/
+/*Texto Google*/
+.letraGoogle{
     display: flex;
+    font-size: 100px;
     justify-content: center;
-    margin-top: 90px;
+    font-weight: 500;
+    padding-top:30px;
 }
-.imagenDni{
-    display: flex;
-    justify-content: center;
-    gap: 50px;
-    padding-top: 15px;
-}
-.texto{
+/*Datos de los integrante del grupo*/
+/* La propiedad gap difene el espacio que hay entre sus items */
+.general{
+    padding-top: 3px;
     display: flex;
     flex-direction: row;
-    color: white;
     justify-content: center;
+    gap: 100px;
 }
+.Patricia{
+    width: 170px;
+    margin: 5px;
+}
+.Patricia div{
+    padding-bottom: 3px;
+}
+.fotoPatri{
+    width: 170px;
+    height: 190px;
+}
+
+.Harpreet{
+    width: 170px;
+    margin:5px;
+}
+.Harpreet div{
+    padding-bottom: 3px;
+}
+.fotoHar{
+    width: 170px;
+    height: 190px;
+}
+
+/* Todo el footer*/
 footer{
+    width: 100%;
+    bottom: 0%;
+    position: absolute;
+    color: #9aa0a6;
+    background-color: #18181C;
+}
+.firstFooter{
+    font-family: 15px;
+    padding-left: 30px;
+    font-size: 15px;
+    border-bottom: 1px solid #3c4043;
+}
+/*La propiedad wrap la he puesto a todo el contenedor ya que influye a todos los elementos*/
+.secondFooter{
     display: flex;
     flex-direction: row;
-}
-.arribaIzq{
-    display: flex;
-    justify-content: flex-start;
-
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
-footer p:hover{
-    text-decoration: underline; color: black;
-}
-.subrayado p{
+/* los elementos con el nombre bottom són los items de del second footer*/
+.bottomLeft{
     display: flex;
+    flex-direction: row;
+    font-size: 14px;
+    align-items: center;
 }
-.subrayado{
+.bottomLeft div{
+    padding: 10px;
+}
+/*Si ponía la propiedad hover a un contenedor general, por eso lo he tenido separar */
+.bottomLeft div:hover{
+    text-decoration: underline solid;
+}
+
+
+.bottomRight{
     display: flex;
-    flex-direction: row;}
+    flex-direction: row;
+    font-size: 14px;
+    align-items: center;
+}
+.bottomRight div{
+    padding: 10px;    
+}
+.bottomRight div:hover{
+    text-decoration: underline solid;
+}
+
+
+.bottomCenter{
+    display: flex;
+    flex-direction: row;
+    font-size: 15px;
+    padding: 10px;
+    align-items: center;
+}
+.bottomCenter img{
+    width:15px;
+    height:15px;
+    vertical-align: middle;
+    margin-right: 6px;
+}
+.bottomCenter div:hover{
+    text-decoration: underline solid;
+}
